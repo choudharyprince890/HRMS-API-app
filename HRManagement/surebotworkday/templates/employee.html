@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=D, initial-scale=1.0">
+    <title>Document</title>
+    <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+    <link rel="stylesheet" href="static/css/dashboard.css">
+    <link rel="stylesheet" href="static/css/emp.css">
+</head>
+
+<body class="home">
+    <div class="container-fluid display-table">
+        <div class="row display-table-row">
+            {% include 'sidenav.html' %}
+            <div class="col-md-10 col-sm-11 display-table-cell v-align">
+                {% include 'topnav.html' %}
+                <div class="user-dashboard">
+
+                    <div class="row">
+                        <div class="col-md-2">
+
+                        </div>
+                        <div class="col-md-8">
+                            
+                            <nav class="nav nav-pills nav-fill">
+                                <a class="nav-item nav-link active" href="#" style="text-decoration: underline chartreuse">MANAGE EMPLOYEES</a>
+                                <a class="nav-item nav-link" href="#"><b>DIRECTORY</b></a>
+                                <a class="nav-item nav-link" href="#">ORG CHART</a>
+ 
+                            </nav>
+
+
+                        </div>
+                        <div class="col-md-2">
+                            
+                        </div>
+                        <table class="table">
+                            <caption>List of users</caption>
+                            <thead>
+                              <tr>
+                                <th scope="col">#</th>
+                                <th scope="col">First</th>
+                                <th scope="col">Last</th>
+                                <th scope="col">Handle</th>
+                              </tr>
+                            </thead>
+                            <tbody>
+                              <tr>
+                                <th scope="row">1</th>
+                                <td>Mark</td>
+                                <td>Otto</td>
+                                <td>@mdo</td>
+                              </tr>
+                              <tr>
+                                <th scope="row">2</th>
+                                <td>Jacob</td>
+                                <td>Thornton</td>
+                                <td>@fat</td>
+                              </tr>
+                              <tr>
+                                <th scope="row">3</th>
+                                <td>Larry</td>
+                                <td>the Bird</td>
+                                <td>@twitter</td>
+                              </tr>
+                            </tbody>
+                          </table>
+                    </div>   
+                </div>
+            </div>
+        </div>
+    </div>   
+   
+</body>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+
+</html>

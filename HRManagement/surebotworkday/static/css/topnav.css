@@ -1,0 +1,84 @@
+.navbar-brand {
+  font-family: Lato;
+  font-weight: bold;
+  text-align: end;
+}
+.navbar {
+  width: 91.43%;
+  margin-left: 10.65%;
+  margin-right: 11%;
+}
+
+#search_img {
+  padding-top: 4%;
+  font-size: 8%;
+  width: 15%;
+  height: 15%;
+  margin-right: 4%;
+  text-align: center;
+}
+#Setting_img {
+  padding-top: 4%;
+  font-size: 10%;
+  width: 15%;
+  height: 15%;
+  margin-right: 4%;
+  /* margin-left: 3%; */
+}
+#logo_img {
+  padding-top: 4%;
+  font-size: 10%;
+  width: 15%;
+  height: 15%;
+  margin-right: 4%;
+}
+#dropdown_img {
+  padding-top: 4%;
+  font-size: 7%;
+  width: 15%;
+  height: 15%;
+  margin-left: 4%;
+}
+#dashboard_img {
+  font-size: 10%;
+  width: 15%;
+  height: 15%;
+  margin-right: 4%;
+}
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 60%;
+  height: 350%;
+  margin-top: 2%;
+  margin-left: 0%;
+  text-align: center;
+  font-family: arial;
+  border-color: gray;
+}
+#upcoming {
+  color: black;
+  font-family: Lato;
+  margin-right: 18%;
+  font-weight: bold;
+  font-size: 130%;
+}
+#date {
+  color: black;
+  font-family: Lato;
+
+  margin-right: 18%;
+  font-weight: bold;
+  font-size: 120%;
+  top: 1%;
+}
+#share_img {
+  padding-top: 0%;
+  font-size: 9%;
+  width: 15%;
+  height: 7%;
+  margin-left: 13%;
+}
+.card-horizontal {
+  display: flex;
+  flex: 1 1 auto;
+}

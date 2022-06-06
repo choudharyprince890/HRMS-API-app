@@ -1,0 +1,84 @@
+.sidenav {
+  height: 100%;
+  width: 155px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: blue;
+  overflow-x: hidden;
+  padding-top: 2%;
+}
+#Surebot_img {
+  font-family: lato;
+  font-weight: bold;
+  width: 88%;
+  height: 9%;
+  margin-top: 20%;
+  margin-bottom: 0%;
+  margin-left: 0%;
+  margin-right: 21%;
+}
+#dashboard_img {
+  font-family: lato;
+  font-weight: bold;
+  font-size: 6%;
+  width: 18%;
+  height: 4%;
+  margin-right: 4%;
+  margin-top: 21%;
+  content: "";
+}
+#Dashboard_font {
+  font-family: Lato;
+  font-weight: bold;
+  text-align: end;
+  margin-left: 1.87%;
+  margin-bottom: 48%;
+  color: white;
+  content: "";
+}
+#employees_img {
+  font-size: 8%;
+  width: 20%;
+  height: 4%;
+  margin-right: 6.02%;
+  margin-top: 5%;
+}
+#Attendance_img {
+  font-size: 8%;
+  width: 20%;
+  height: 4%;
+  margin-right: 5%;
+  margin-top: 5%;
+}
+#Employees_font {
+  color: white;
+  font-family: Lato;
+  font-weight: bold;
+}
+#Attendance_font {
+  font-family: Lato;
+  font-weight: bold;
+  margin-bottom: 90%;
+}
+#TimeOff {
+  font-family: Lato;
+  font-weight: normal;
+  color: white;
+}
+#Payroll {
+  font-family: Lato;
+  font-weight: normal;
+  color: white;
+}
+#Performance {
+  font-family: Lato;
+  font-weight: normal;
+  color: white;
+}
+#Recruitment {
+  font-family: Lato;
+  font-weight: normal;
+  color: white;
+}
